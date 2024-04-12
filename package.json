@@ -1,0 +1,36 @@
+{
+  "name": "agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server",
+    "start": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "go-ipfs": "^0.22.0",
+    "solc": "^0.4.24",
+    "web3": "^0.20.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "API": {
+    "HTTPHeaders": {
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "Access-Control-Allow-Methods": [
+        "GET",
+        "POST",
+        "OPTIONS"
+      ],
+      "Access-Control-Allow-Headers": [
+        "X-Requested-With"
+      ]
+    }
+  }
+}
